@@ -1,5 +1,5 @@
 {
-    "name": "zfbrasil/broadway-module",
+    "name": "juizmill/broadway-module",
     "description": "Zend Framework 2 module for Broadway",
     "license": "MIT",
     "require": {
