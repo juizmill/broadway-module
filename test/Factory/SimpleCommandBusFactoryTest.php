@@ -6,7 +6,7 @@ use Broadway\CommandHandling\CommandHandler;
 use Broadway\CommandHandling\SimpleCommandBus;
 use PHPUnit_Framework_TestCase as TestCase;
 use stdClass;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 use ZFBrasil\BroadwayModule\Exception\InvalidArgumentException;
 use ZFBrasil\BroadwayModule\Factory\SimpleCommandBusFactory;
 

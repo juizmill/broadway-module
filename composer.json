@@ -1,39 +1,40 @@
 {
-  "name": "zfbrasil/broadway-module",
-  "description": "Zend Framework 2 module for Broadway",
-  "license": "MIT",
-  "require": {
-    "php": ">=5.5",
-    "zendframework/zend-servicemanager": "~2.4",
-    "zendframework/zend-modulemanager": "~2.4",
-    "broadway/broadway": "^1.0.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "~4.6",
-    "squizlabs/php_codesniffer": "~2.3"
-  },
-  "autoload": {
-    "psr-4": {
-      "ZFBrasil\\BroadwayModule\\" : "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "ZFBrasil\\BroadwayModuleTest\\" : "test/"
-    }
-  },
-  "authors": [
-    {
-      "name": "Daniel Gimenes",
-      "email": "daniel@danielgimenes.com.br"
+    "name": "zfbrasil/broadway-module",
+    "description": "Zend Framework 2 module for Broadway",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5",
+        "laminas/laminas-servicemanager": "~2.4",
+        "laminas/laminas-modulemanager": "~2.4",
+        "broadway/broadway": "^1.0.0",
+        "laminas/laminas-dependency-plugin": "^2.1"
     },
-    {
-      "name": "Fábio Carneiro",
-      "email": "fahecs@gmail.com"
+    "require-dev": {
+        "phpunit/phpunit": "~4.6",
+        "squizlabs/php_codesniffer": "~2.3"
     },
-    {
-      "name": "Gabriel Schmitt",
-      "email": "gabrielsch@outlook.com"
-    }
-  ]
+    "autoload": {
+        "psr-4": {
+            "ZFBrasil\\BroadwayModule\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZFBrasil\\BroadwayModuleTest\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Gimenes",
+            "email": "daniel@danielgimenes.com.br"
+        },
+        {
+            "name": "Fábio Carneiro",
+            "email": "fahecs@gmail.com"
+        },
+        {
+            "name": "Gabriel Schmitt",
+            "email": "gabrielsch@outlook.com"
+        }
+    ]
 }
