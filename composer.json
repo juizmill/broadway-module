@@ -1,6 +1,6 @@
 {
-    "name": "zfbrasil/broadway-module",
-    "description": "Zend Framework 2 module for Broadway",
+    "name": "juizmill/broadway-module",
+    "description": "Laminas Framework module for Broadway",
     "license": "MIT",
     "require": {
         "php": ">=5.5",
