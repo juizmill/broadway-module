@@ -4,7 +4,7 @@ namespace ZFBrasil\BroadwayModule\Factory;
 
 use Broadway\CommandHandling\CommandHandler;
 use Broadway\CommandHandling\SimpleCommandBus;
-use Laminas\ServiceManager\ServiceLocatorInterface;
+use Zend\ServiceManager\ServiceLocatorInterface;
 use ZFBrasil\BroadwayModule\Exception\InvalidArgumentException;
 
 final class SimpleCommandBusFactory

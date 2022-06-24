@@ -2,7 +2,7 @@
 
 namespace ZFBrasil\BroadwayModule;
 
-use Laminas\ModuleManager\Feature\ConfigProviderInterface;
+use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
 class Module implements ConfigProviderInterface
 {
