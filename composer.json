@@ -2,9 +2,15 @@
     "name": "juizmill/broadway-module",
     "description": "Zend Framework 2 module for Broadway",
     "license": "MIT",
+        "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:juizmill/broadway.git"
+        },
+    ],
     "require": {
         "php": ">=5.5",
-        "broadway/broadway": "2.5.0"
+        "juizmill/broadway": "dev-master",
     },
     "autoload": {
         "psr-4": {
