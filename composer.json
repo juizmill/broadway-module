@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.5",
-        "juizmill/broadway": "dev-master"
+        "juizmill/broadway": "*"
     },
     "autoload": {
         "psr-4": {
