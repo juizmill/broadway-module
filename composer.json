@@ -8,6 +8,7 @@
             "url": "git@github.com:juizmill/broadway.git"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.5",
         "juizmill/broadway": "dev-master"
